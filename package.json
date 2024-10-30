@@ -1,0 +1,29 @@
+{
+	"name": "marcom-gather-block",
+	"version": "0.1.0",
+	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"main": "block/index.js",
+	"scripts": {
+		"build": "wp-scripts build --output-path=block",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start": "wp-scripts start",
+		"packages-update": "wp-scripts packages-update"
+	},
+	"dependencies": {
+		"@azure/msal-browser": "^2.19.0",
+		"@azure/msal-react": "^1.1.1",
+		"@wordpress/block-editor": "^6.2.0",
+		"@wordpress/blocks": "^10.0.0",
+		"@wordpress/i18n": "^4.2.0",
+		"@wordpress/media-utils": "^2.2.0"
+	},
+	"devDependencies": {
+		"@svgr/webpack": "^5.5.0",
+		"@wordpress/scripts": "^17.0.0",
+		"url-loader": "^4.1.1"
+	}
+}

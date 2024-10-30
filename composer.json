@@ -1,0 +1,13 @@
+{
+    "name": "marcom/marcom-gather",
+    "description": "The WordPress integration plugin for MarcomGather",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MCC\\": "./inc"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}

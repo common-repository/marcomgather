@@ -1,0 +1,17 @@
+{
+	"apiVersion": 2,
+	"name": "marcom-gather/marcomgather-block",
+	"version": "1.0.11",
+	"title": "MarcomGather",
+	"category": "MarcomGather",
+	"icon": "smiley",
+	"supports": {
+		"html": false,
+		"align": true
+	},
+	"description": "Easily find and add images and videos on your WordPress website from your MarcomGather assets.",
+	"textdomain": "marcom-gather",
+	"editorScript": "file:./block/index.js",
+	"editorStyle": "file:./block/index.css",
+	"style": "file:./block/style-index.css"
+}
